@@ -4537,9 +4537,9 @@ a.em-active-button:hover {
 .single_process_thumb {
     display: inline-block;
     border-radius: 100%;
-    animation: checkAnim 2s infinite;
+    /* animation: checkAnim 2s infinite;  */
     height: 230px;
-    width: 230px;
+    /* width: 230px; */
     line-height: 230px;
 }
 .single_process_thumb img {
