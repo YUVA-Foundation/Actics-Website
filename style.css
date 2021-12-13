@@ -6271,6 +6271,26 @@ to{-webkit-transform:rotate(360deg) translate(-10px) rotate(-360deg);-moz-transf
         width: 100%;
         height: 100%;
     }
+
+
+
+    hr.line15 {
+        border:0;
+          border-top: 4px double #8c8b8b;
+          text-align: center;
+        width:50%;
+      }
+      hr.line15:after {
+          content: '';
+          display: inline-block;
+          position: relative;
+          top: -15px;
+          padding: 0 10px;
+          background: #f0f0f0;
+          color: #8c8b8b;
+          font-size: 10px;
+        border:0;
+      }
 /* bounce-animate */
 .bounce-animate {
   animation-name: float-bob;
